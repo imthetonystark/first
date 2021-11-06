@@ -1,0 +1,528 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Inconsolata:wght@300&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Fredoka+One&family=Inconsolata:wght@300&family=Pacifico&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+/* body{
+    overflow-x: hidden;
+} */
+header{
+    background-color: #F2CEDA;
+}
+.container{
+    max-width: 1140px;
+    margin:0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+  
+}
+.row h1{
+    font-family:  'Pacifico';
+}
+.row h6{
+    font-family: 'Fredoka One';
+}
+.col-3{
+    width: 25%;
+    padding:0 15px;
+}
+.col-3 h6{
+    font-size: 18px;
+}
+.col-6{
+    width: 50%;
+    padding: 0 15px;
+}
+.polar{
+    display: flex;
+    justify-content: flex-start;
+}
+.first-wrap{
+    display: flex;
+    align-items: center;
+}
+.first-wrap ul{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    color: gray;
+    list-style: none;
+}
+.first-wrap li{
+    padding-left: 50px;
+    margin-left: 40px;
+}
+.first-wrap button{
+    height: 49px;
+    width: 165px;
+    color: white;
+    background-color: #D23166;
+    margin-left: 100px;
+    border-radius: 5px;
+    font-family: 'Courgette';
+}
+.first{
+    background-color: #F2CEDA;
+    min-height: 110vh;
+}
+.ice-cream{
+    margin-left: 800px;
+}
+.first-box{
+    position: relative;
+}
+.first-box .ice{
+   position: absolute;
+   z-index: 2;
+}
+.milk{
+    position: absolute;
+    z-index: 3;
+    left: -156px;
+    top: 136px;
+}
+.elipse{
+    position: absolute;
+    z-index: 1;
+    left: 113px;
+    top: 303px;
+}
+.col-6 h6{
+    margin-top: 200px;
+    font-size: 15px;
+}
+.last{
+    color:#D23166 ;
+}
+.col-6 h1{
+    font-size: 56px;
+}
+.col-6 h4{
+    margin-top: 20px;
+    font-size: 20.5px;
+}
+.buy-2{
+    margin-top: 70px;
+    height: 49px;
+    width: 165px;
+    font-family: 'Courgette';
+    background-color: #D23166;
+    border-radius: 5px;
+    color: white;
+}
+
+.icons{
+    padding:100px 0;
+    font-family: 'Fredoka One';
+}
+.icons-box{
+    text-align: center;
+}
+.img-box{
+    height: 54px;
+    margin-bottom:23px;
+    display: flex;
+    justify-content: center;
+}
+
+.third{
+    display: flex;
+    padding: 100px 0;
+    background-color: #F2CEDA;
+}
+.second-box img{
+    position: absolute;
+    top: 1250px;
+    left: 780px;
+}
+.row-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.row-wrap h1{
+    margin-left: 150px;
+    font-family:  'Pacifico'
+}
+.row-wrap p{
+    padding-top: 40px;
+    margin-left: 150px;
+    color: #150101;
+    font-family: 'Fredoka One';
+}
+.row-wrap button{
+    height: 49px;
+    width: 165px;
+    margin-left: 150px;
+    margin-top: 50px;
+    border-radius: 5px;
+    color: white;
+    background-color:#D23166 ;
+}
+.tasty{
+    background-color: #F2CEDA;
+    height: 640px;
+}
+.row-row-wrap{
+    display: flex;
+}
+.container-tasty{
+    display: flex;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.tasty-box img{
+    background-color: #F2CEDA;
+    position: absolute;
+    border-radius: 25px;
+    left: 150px;
+    top: 3985px;
+}
+.tasty-tasty .col-6{
+    margin-left: 500px;
+    margin-top: 120px;
+}
+.tasty-tasty h2{
+    font-size: 50px;
+    font-family:  'Pacifico';
+}
+.item{
+    color:#D23166 ;
+}
+.simple{
+    color: #D23166 ;
+}
+.tasty-tasty p{
+    font-size: 15px;
+    font-family: 'Fredoka One';
+    margin-top: 10px;;
+}
+.food button{
+    background-color:#F2CEDA ;
+    font-size: 22px;
+    margin-left: 25px;
+    margin-top: 25px;
+    font-family: 'Fredoka One';
+}
+.food img{
+    border:0.25px lightgray solid;
+    background-color: white;
+    border-radius: 15px;
+}
+.card button{
+    background-color:#F2CEDA ;
+    font-size: 22px;
+    margin-left: 25px;
+    margin-top: 15px;
+    font-family: 'Fredoka One';
+}
+.card img{
+    border:0.25px lightgray solid;
+    background-color: white;
+    border-radius: 15px;
+}
+.order button{
+    background-color:#F2CEDA ;
+    font-size: 22px;
+    margin-left: 25px;
+    margin-top: 15px;
+    font-family: 'Fredoka One';
+}
+.order img{
+    border:0.25px lightgray solid;
+    background-color: white;
+    border-radius: 15px;
+}
+.stores{
+    display: flex;
+}
+.app-store{
+    margin-top: -5px;
+}
+#div-email{
+    text-align: center;
+    margin-top: 200px;
+}
+.container-email{
+    display: flex;
+    max-width: 620px;
+    margin: 0 auto;
+}
+.email2{
+    font-size: 34px;
+    font-family:  'Pacifico';
+}
+.input-email input{
+    margin-top: 70px;
+    height: 64px;
+    width: 500px;
+    border: 0.50px lightgray solid;
+    background-color: #FAFAFA;
+    font-family: 'Fredoka One';
+}
+.input-email button{
+    height: 64px;
+    width: 84px;
+    background-color:#D23166;
+    color: white;
+    text-align: center;
+    font-family: 'Fredoka One';
+    border: 2px #D23166 solid ;
+}
+footer{
+    margin-top: 200px;
+    background-color: black;
+    color: white;
+}
+.container-footer{
+    display: flex;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.polar-box{
+    display: flex;
+    margin-left: 150px;
+    font-family: 'Fredoka One';
+}
+.polar-img{
+    margin-top: 70px;
+}
+.follow{
+    margin-top: 15px;
+}
+.social{
+    margin-top: 10px;
+}
+.menu-box{
+    display: flex;
+    margin-left: 150px;
+    margin-top: 130px;
+    font-size: 12px;
+}
+.menu-box p{
+    padding-top: 5px;
+}
+.delivery-box{
+    display: flex;
+    margin-left: 130px;
+    font-size: 12px;
+}
+.subscribe-box{
+    display: flex;  
+    margin-left: 100px;
+}
+#subscribe-input{
+    height: 40px;
+    width: 350px;
+    background-color: black;
+    border: 2px #D23166 solid ;
+}
+.final-input button{
+    background-color:#D23166 ;
+    color: white;
+    border-radius: 1px;
+    font-family:  'Pacifico';
+}
+.final-input{
+    display: flex;
+    margin-top: 25px;
+}
+.bank-cards{
+    display: flex;
+    margin-top: 25px;
+}
+.bank-cards .two{
+    margin-left: 8px;
+}
+.bank-cards .three{
+    margin-left: 8px;
+}
+.up button{
+    height: 20px;
+    border-radius: 5px;
+    background-color:#D23166 ;
+    color: white;
+    font-size: 10px;
+    font-family:  'Pacifico';
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+.mobile-btn {
+    width: 30px;
+    height: 30px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile-btn span {
+    width: 100%;
+    height: 3px;
+    background: #697CA6;
+    display: inline-block;
+    position: relative;
+}
+
+.mobile-btn span:before,
+.mobile-btn span:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #697CA6;
+    transition: .5s;
+}
+
+.mobile-btn span:before {
+    top: -10px;
+}
+
+.mobile-btn span:after {
+    top: 10px;
+}
+
+/*FORBUREGER*/
+    /*FORBUREGER*/
+    @media (max-width:768px) {
+        .mobile-btn {
+            display: flex;
+            z-index: 12;
+        }
+    
+        .show-mobile-btn span {
+            background: transparent; /*hides middle line*/
+    
+        }
+    
+        .show-mobile-btn span:before,
+        .show-mobile-btn span:after {
+            top: 0;
+            bottom: 0;
+            margin: auto;
+    
+    
+        }
+    
+        .show-mobile-btn span:before {
+            transform: rotate(45deg);
+        }
+    
+        .show-mobile-btn span:after {
+            transform: rotate(-45deg);
+        }
+    
+        .nav__list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+            background: #ffffff;
+            height: 8%;
+            width: 100%;
+            top: 0;
+            right: -100%;
+            z-index: 11;
+            transition: .5s;
+        }
+    
+        .show-menu {
+            right: 0;
+        }
+    
+        /*FORBUREGER*/
+        /*FORBUREGER*/
+    }
+
+
+
+
+
+
+
+
+@media (max-width: 380px){
+    .first-wrap{
+        max-height: 0;
+        background-color: #F2CEDA ;
+        width: 100%;
+        height: 200px;
+    }
+    .first h6{
+      font-size: 15px;
+    }
+    .first h1{
+    font-size: 25px;
+    }
+    .first h4 {
+        font-size: 10px;
+    }
+    .first .buy-2 {
+        height: 20px;
+        width: 100px;
+        margin-top: 10px;
+    }
+    .first .ice{
+        height: 300px;
+        top: 200px;
+        left: -70px;
+    }
+    .first .milk {
+        height: 230px;
+        top: 320px;
+        left: -100px;
+    }
+    .first .elipse{
+        height: 170px;
+        top: 350px;
+        left: -10px;
+    }
+    .icons-box .img-box{
+        height: 30px;
+    }
+    .icons-box h6{
+        font-size: 15px;
+    }
+    .icons-box p{
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    .row-wrap h1{
+        font-size: 25px;
+        margin-left: 10px;
+    }
+    .row-wrap p {
+        font-size: 14px;
+        margin-left: 10px;
+    }
+    .row-wrap button{
+        height: 20px;
+        width: 100px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .second-box img{
+        width: 200px;
+        height: 200px;
+        top: 1500px;
+        left: 150px;
+    }
+    .img1 {
+        width: 340px;
+    }
+    
+      
+} 
+
+
+
